@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Mac外设机械键盘 与 Magic Mouse2
 ---
 
