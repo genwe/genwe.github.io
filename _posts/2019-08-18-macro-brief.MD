@@ -31,17 +31,19 @@ STRING(hello) === "hello"
 
 ## 字符串枚举其他的方式
 .h 文件中 -------------
+```
 typedef NSString *KLTypeStr NS_STRING_ENUM;
 
 FOUNDATION_EXPORT KLTypeStr const KLTypeStringRed;
 FOUNDATION_EXPORT KLTypeStr const KLTypeStringGreen;
 FOUNDATION_EXPORT KLTypeStr const KLTypeStringOrange;
-
+```
 .m 文件中 --------------
+```
 NSString * const KLTypeStringRed = @"红色";
 NSString * const KLTypeStringGreen = @"绿色";
 NSString * const KLTypeStringOrange = @"橘色"; 
-
+```
 比较的时候 StringEnum1 == StringEnum2 直接比较的是内存地址，效率会更高。
 相比会产生过多二进制文件的宏定义方式,假如宏定义比较多,建议用FOUNDATION_EXPORT
 
