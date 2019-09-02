@@ -6,6 +6,11 @@ title: BF简介
 
 简单介绍一下BF
 
+## 图灵机是什么？
+所谓的图灵机就是指一个抽象的机器，有一条无限长的纸带，纸带分成来一个一个的小方格；有一个机器头在纸带上移来移去；机器头有一组内部状态，还有一些固定的程序；在每个时刻，机器头都要从当前纸带上读入一个方格的信息，然后结合自己的内部状态查找程序表，根据程序输出信息到纸带方格上，并转换自己的内部状态，然后进行移动；
+
+图灵的基本思想是用机器来模拟人们用纸和笔进行数学运算的过程；
+
 ## BF(BrainFuck) 是什么？
 是一种由8种操作符组成的图灵完备的编程语言
 
@@ -159,4 +164,5 @@ helloworld.bf
 
 ## 引用源
 + [https://blog.csdn.net/redraiment/article/details/7483062](https://blog.csdn.net/redraiment/article/details/7483062)
++ [https://baike.baidu.com/item/图灵机](https://baike.baidu.com/item/图灵机)
  
